@@ -26,7 +26,7 @@ export const fetchCurrentWeather = async (city, unit) => {
       params: {
         key: API_KEY,
         q: trimmedCity,
-        unit: unit === 'metric' ? 'm' : 'f',
+        unit: unit === 'metric' ? 'metric' : 'f',
       },
     });
 
@@ -47,7 +47,7 @@ export const fetchHourlyForecast = async (city, unit) => {
         q: trimmedCity,
         days: 1,
         hour: 1,
-        unit: unit === 'metric' ? 'm' : 'f',
+        unit: unit === 'metric' ? 'metric' : 'f',
       },
     });
 
