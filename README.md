@@ -2,7 +2,7 @@
 
 ## Description
 
-The React WeatherApp is a simple weather application built with HTML, JavaScript, React, Axios, and Tailwind CSS. It leverages the Weatherapi to fetch accurate and up-to-date weather data, allowing users to check the current weather conditions for a specific location.
+The React WeatherApp is a simple weather application built with HTML, JavaScript, Vite-React, Axios, and Tailwind CSS. It leverages the Weatherapi to fetch accurate and up-to-date weather data, allowing users to check the current weather conditions for a specific location.
 
 ## Table of Contents
 
