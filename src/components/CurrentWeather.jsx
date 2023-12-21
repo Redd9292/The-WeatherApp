@@ -18,7 +18,7 @@ const CurrentWeather = ({ weatherData, unit, onToggleUnit }) => {
           className="w-10 h-10"
         />
         <p className="text-3xl font-bold"> {unit === 'metric' ? `${current.temp_c}°C` : `${current.temp_f}°F`}</p>
-
+     
       </div>
       <p>{current.condition.text}</p>
       <p>Humidity: {current.humidity}%</p>
