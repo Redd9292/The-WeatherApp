@@ -25,8 +25,8 @@ Forecast:
 
 ## Features
 
-Get current weather conditions for a specific location.
-Responsive design using Tailwind CSS.
+- Get current weather conditions for a specific location.
+- Responsive design using Tailwind CSS.
 
 ## Contributing
 
