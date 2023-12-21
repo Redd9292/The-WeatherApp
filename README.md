@@ -19,23 +19,26 @@ The React Weather App is a simple weather application built with JavaScript, Rea
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
-Usage:
+## Usage:
 
 - To see the app please follow the following url:
   https://strong-nougat-f62d3d.netlify.app/WeatherApp
 
-Features
+## Features
+
 Get current weather conditions for a specific location.
 Responsive design using Tailwind CSS.
 
-Contributing
+## Contributing
+
 If you'd like to contribute, please follow these steps:
 
 Fork the repository.
 Create a new branch.
 Make your changes and submit a pull request.
 
-Acknowledgements
+## Acknowledgements
+
 Thanks to the React team for providing a powerful library.
 This project uses the Axios library for making HTTP requests.
 Tailwind CSS for responsive and utility-first styling.
