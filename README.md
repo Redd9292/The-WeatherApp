@@ -10,7 +10,6 @@ The React Weather App is a simple weather application built with JavaScript, Rea
 - [Features](#features)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
 
 Home:
 ![Home Screen](/public/assets/Home.png)
