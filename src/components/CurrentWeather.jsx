@@ -1,10 +1,11 @@
 import React from 'react';
 
+
 const CurrentWeather = ({ weatherData, unit, onToggleUnit }) => {
   if (!weatherData) {
     return null; // If no weather data is available, don't render anything
   }
-
+  
   const { location, current } = weatherData;
 
   return (
@@ -16,7 +17,8 @@ const CurrentWeather = ({ weatherData, unit, onToggleUnit }) => {
           alt={current.condition.text}
           className="w-10 h-10"
         />
-        <p className="text-3xl font-bold">{current.temp_c}&#176;C</p>
+        <p className="text-3xl font-bold"> {unit === 'metric' ? `${current.temp_c}°C` : `${current.temp_f}°F`}</p>
+
       </div>
       <p>{current.condition.text}</p>
       <p>Humidity: {current.humidity}%</p>

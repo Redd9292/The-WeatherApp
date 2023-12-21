@@ -1,5 +1,4 @@
 import axios from 'axios'
-// import {fetchHourlyForecast}
 const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 const API_BASE_URL = 'https://api.weatherapi.com/v1';
 
@@ -13,7 +12,6 @@ export const fetchCurrentWeather = async (city, unit) => {
       params: {
         key: API_KEY,
         q: trimmedCity,
-        // unit: unit === 'metric' ? 'metric' : 'f',
         unit: unit === 'metric' ? 'metric' : 'imperial',
       },
     });
@@ -35,8 +33,6 @@ export const fetchHourlyForecast = async (city, unit) => {
         key: API_KEY,
         q: trimmedCity,
         days: 1,
-        // hour: 1,
-        // unit: unit === 'metric' ? 'metric' : 'f',
         unit: unit === 'metric' ? 'metric' : 'imperial',
       },
     });
@@ -50,6 +46,30 @@ export const fetchHourlyForecast = async (city, unit) => {
     throw error;
   }
 };
+
+export const fetchDailyForecast = async (city, unit) => {
+  try {
+    const trimmedCity = city.trim();
+
+    const response = await axios.get(`${API_BASE_URL}/forecast.json`, {
+      params: {
+        key: API_KEY,
+        q: trimmedCity,
+        days: 6, 
+        unit: unit === 'metric' ? 'metric' : 'imperial',
+      },
+    });
+
+    const dailyForecast = response.data?.forecast?.forecastday || [];
+    console.log('Daily Forecast:', dailyForecast);
+
+    return dailyForecast;
+  } catch (error) {
+    console.error('Error fetching daily forecast:', error);
+    throw error;
+  }
+};
+
 
 
 
