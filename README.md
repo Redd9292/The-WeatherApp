@@ -32,9 +32,9 @@ Responsive design using Tailwind CSS.
 
 If you'd like to contribute, please follow these steps:
 
-Fork the repository.
-Create a new branch.
-Make your changes and submit a pull request.
+- Fork the repository.
+- Create a new branch.
+- Make your changes and submit a pull request.
 
 ## Acknowledgements
 
