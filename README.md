@@ -1,12 +1,5 @@
 # The WeatherApp
 
-Home:
-![Home Screen](/public/assets/Home.png)
-Search:
-![Search Screen](/public/assets/Search.png)
-Forecast:
-![Forecast Screen](/public/assets/Forecastresults.png)
-
 ## Description
 
 The React Weather App is a simple weather application built with JavaScript, React, Axios, and Tailwind CSS. It allows users to check the current weather conditions for a specific location.
@@ -18,6 +11,13 @@ The React Weather App is a simple weather application built with JavaScript, Rea
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
+
+Home:
+![Home Screen](/public/assets/Home.png)
+Search:
+![Search Screen](/public/assets/Search.png)
+Forecast:
+![Forecast Screen](/public/assets/Forecastresults.png)
 
 ## Usage:
 
