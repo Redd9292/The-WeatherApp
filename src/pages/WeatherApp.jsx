@@ -68,12 +68,7 @@ const WeatherApp = () => {
         <button onClick={handleSearch} className="bg-blue-500 text-white p-2">
           Search
         </button>
-
-
-
-
-
-      </div>
+        </div>
       {weatherData && (
         <div className="mt-8">
           <CurrentWeather weatherData={weatherData} unit={unit} onToggleUnit={toggleUnit} />
