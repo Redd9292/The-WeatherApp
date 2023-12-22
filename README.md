@@ -20,7 +20,7 @@ Forecast:
 
 ## Usage:
 
-- To see the app please follow the following url:
+- To see the app please follow the following link:
   [AppDemo](https://strong-nougat-f62d3d.netlify.app)
 
 ## Features
