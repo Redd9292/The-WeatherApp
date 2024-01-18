@@ -3,7 +3,7 @@ import React from 'react';
 
 const CurrentWeather = ({ weatherData, unit, onToggleUnit }) => {
   if (!weatherData) {
-    return null; // If no weather data is available, don't render anything
+    return null; 
   }
   
   const { location, current } = weatherData;

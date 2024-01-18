@@ -8,7 +8,6 @@ The WeatherApp is a simple weather application built with HTML, JavaScript, Vite
 
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 
 Home:
@@ -27,14 +26,6 @@ Forecast:
 
 - Get current weather conditions for a specific location.
 - Responsive design using Tailwind CSS.
-
-## Contributing
-
-If you'd like to contribute, please follow these steps:
-
-- Fork the repository.
-- Create a new branch.
-- Make your changes and submit a pull request.
 
 ## Acknowledgements
 
